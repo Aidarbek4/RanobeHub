@@ -1,0 +1,80 @@
+.wrapper {
+  font-family: "Lato", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 102, 153, 0.3)), color-stop(50%, rgba(21, 38, 47, 0.8)), to(rgba(21, 38, 47, 0.99))), url("https://images.unsplash.com/photo-1535905748047-14b2415c77d5?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: linear-gradient(180deg, rgba(0, 102, 153, 0.3) 0%, rgba(21, 38, 47, 0.8) 50%, rgba(21, 38, 47, 0.99) 100%), url("https://images.unsplash.com/photo-1535905748047-14b2415c77d5?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.register {
+  width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.register__title {
+  margin-top: 60px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  color: #006699;
+}
+.register__form {
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.register__input {
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.register__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+.register__btn {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0099cc;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px 20px;
+}
+.register__btn.clear {
+  background-color: #15262f;
+}
+.register__text {
+  text-align: center;
+  margin-top: 10px;
+  color: #244677;
+}
+.register__text a {
+  color: #0099cc;
+  font-weight: bold;
+}

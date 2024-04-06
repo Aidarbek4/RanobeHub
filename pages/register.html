@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RanobeHub</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="register">
+            <h1 class="register__title">Регистрация</h1>
+            <form action="/" method="post" class="register__form">
+                <input type="text" name="name" class="register__input" placeholder="ФИО">
+                <input type="text" name="username" class="register__input" placeholder="Имя пользователя">
+                <input type="email" name="email" class="register__input" placeholder="Электронная почта">
+                <input type="password" name="password" class="register__input" placeholder="Пароль">
+                <input type="password" name="password_confirm" class="register__input" placeholder="Поттверждение пароля">
+                <div class="register__buttons">
+                    <button type="reset" class="register__btn clear">Очистить</button>
+                    <button type="submit" class="register__btn ">Регистрация</button>
+                </div>
+                <p class="register__text">У вас уже есть аккаунт? <a href="./login.html">Войти</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

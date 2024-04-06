@@ -1,0 +1,77 @@
+$white: #fff;
+$black: #000;
+$light-gray: #f0f0f0;
+$dark-blue: #15262f;
+$main-blue: #244677;
+$sky-blue: #0099cc;
+$accent-blue: #006699;
+
+.wrapper{
+    font-family: "Lato", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgb(0, 102, 153, 0.3) 0%, rgb(21, 38, 47, 0.80) 50%, rgb(21, 38, 47, 0.99) 100%), url("https://images.unsplash.com/photo-1535905748047-14b2415c77d5?q=80&w=2050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.register{
+    width: 800px;
+    background-color: $white;
+    padding: 20px;
+    border-radius: 20px;
+
+    &__title{
+        margin-top: 60px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+        color: $accent-blue;
+    }
+
+    &__form{
+        margin: 0 auto;
+        max-width: 450px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input{
+        background-color: $light-gray;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    &__buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    &__btn{
+        font-size: 18px;
+        font-weight: 600;
+        background-color: $sky-blue;
+        color: $white;
+        border-radius: 10px;
+        padding: 8px 20px;
+
+        &.clear{
+            background-color: $dark-blue;
+        }
+    }
+
+    &__text{
+        text-align: center;
+        margin-top: 10px;
+        color: $main-blue;
+
+        a{
+            color: $sky-blue;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RanobeHub</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo header__logo">Ranobe<span>Hub</span></a>
+                <nav class="navbar header__navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <svg width="32px" height="32px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                viewBox="0 0 502.648 502.648" xml:space="preserve">
+                            <g>
+                                <g>
+                                    <g>
+                                        <circle fill="#ffffff" cx="250.399" cy="91.549" r="58.694"/>
+                                        <path fill="#ffffff" d="M455.861,253.028l-54.703-11.411c-18.637-3.904-37.037,4.638-46.765,19.824
+                                            c-9.448-4.853-19.608-9.038-30.415-12.511v-32.529c0.022-24.612-20.126-44.738-44.651-44.738h-55.933
+                                            c-24.655,0-44.716,20.126-44.716,44.738v32.701c-10.699,3.408-20.751,7.593-30.264,12.468
+                                            c-9.728-15.251-28.15-23.857-46.809-19.953l-54.747,11.411c-24.03,5.026-39.626,28.862-34.6,52.978l13.741,65.64
+                                            c4.983,24.051,28.84,39.647,52.892,34.621l17.321-3.624c8.671,12.813,20.665,24.569,36.023,34.621
+                                            c31.989,20.967,74.247,32.529,119.092,32.529c68.617,0,127.721-27.589,154.943-67.215l17.602,3.689
+                                            c24.03,5.004,47.887-10.57,52.87-34.621l13.762-65.64C495.508,281.89,479.912,258.054,455.861,253.028z M251.305,447.381
+                                            c-40.51,0-78.475-10.203-106.797-28.862c-9.707-6.342-17.753-13.395-24.202-20.945l13.266-2.783
+                                            c24.073-5.004,39.669-28.84,34.643-52.913l-12.317-59.018c7.183-3.861,14.733-7.248,22.757-10.138v10.764
+                                            c0,24.569,20.104,44.695,44.716,44.695h55.933c24.548,0,44.652-20.147,44.652-44.695v-11.325
+                                            c8.175,2.912,15.854,6.256,22.973,10.052L334.439,341.9c-4.983,24.073,10.591,47.909,34.664,52.913l13.395,2.804
+                                            C357.52,427.191,308.101,447.381,251.305,447.381z"/>
+                                        <circle fill="#ffffff" cx="443.954" cy="168.708" r="58.694"/>
+                                        <path fill="#ffffff" d="M70.736,226.172c31.752-6.644,52.029-37.77,45.471-69.501
+                                            c-6.687-31.709-37.749-52.072-69.523-45.428c-31.709,6.622-52.072,37.727-45.428,69.458
+                                            C7.879,212.453,38.984,232.795,70.736,226.172z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                            </g>
+                            </svg>
+                            <a href="#" class="navbar__link">Сообщество</a>
+                        </li>
+                        <li class="navbar__item">
+                            <svg width="32px" height="32px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none">
+                            <path fill="#ffffff" fill-rule="evenodd" d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z"/>
+                            </svg>
+                            <a href="#" class="navbar__link">Поиск</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#" class="navbar__link header__profile profile">
+                                <div class="profile__img-wrapper">
+                                    <img src="../img/profile-default.png" alt="profile image" class="profile__img">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+            </div>
+        </div>
+    </header>
+
+    <main class="search">
+        <div class="container">
+            <form action="/" method="get" class="search__form">
+                <input class="search__form-input" type="text" name="search" placeholder="Введите название тайтла"/>
+                <button class="search__form-btn" type="submit">Search</button>
+            </form>
+
+            <section class="search__failure">
+                <div class="wrapper">
+                    <img src="../img/books.png" alt="books">
+                    <p>NOT FOUND</p>
+                </div>
+            </section>
+
+            <section class="search__success">
+                <div class="ranobe__list">
+                    <a href="#" class="ranobe">
+                        <div class="ranobe__inner">
+                            <div class="ranobe__img-wrapper">
+                                <img src="https://cover.imglib.info/uploads/cover/legend-of-the-northern-blade-novel/cover/29cBQDYlIWWv_250x350.jpg" alt="poster" class="ranobe__img">
+                            </div>
+                            <div class="ranobe__content">
+                                <h3 class="ranobe__title">Легенда о северном клинке</h3>
+                                <p class="ranobe__rating"><span>9.75</span> 
+                                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                    viewBox="0 0 330 330" xml:space="preserve">
+                               <g>
+                                   <path d="M165,0C74.019,0,0,74.019,0,165s74.019,165,165,165s165-74.019,165-165S255.981,0,165,0z M165,300
+                                       c-74.439,0-135-60.561-135-135S90.561,30,165,30s135,60.561,135,135S239.439,300,165,300z"/>
+                                   <path d="M247.157,128.196l-47.476-6.9l-21.23-43.019c-2.527-5.12-7.741-8.362-13.451-8.362s-10.924,3.242-13.451,8.362
+                                       l-21.23,43.019l-47.476,6.9c-5.65,0.821-10.345,4.779-12.108,10.209c-1.765,5.43-0.293,11.391,3.796,15.376l34.353,33.486
+                                       l-8.109,47.282c-0.965,5.628,1.349,11.315,5.968,14.671c4.618,3.355,10.741,3.799,15.797,1.142L165,228.039l42.462,22.323
+                                       c2.195,1.154,4.592,1.723,6.979,1.723c0.017,0,0.033,0,0.05,0c8.271-0.015,14.972-6.725,14.972-15c0-1.152-0.13-2.274-0.375-3.352
+                                       l-7.97-46.466l34.352-33.486c4.089-3.985,5.561-9.946,3.796-15.376C257.502,132.975,252.808,129.017,247.157,128.196z"/>
+                               </g>
+                               </svg></p>
+                                <p class="ranobe__year">2014</p>
+                                <p class="ranobe__author">Hae-Min</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="ranobe">
+                        <div class="ranobe__inner">
+                            <div class="ranobe__img-wrapper">
+                                <img src="https://cover.imglib.info/uploads/cover/legend-of-the-northern-blade-novel/cover/29cBQDYlIWWv_250x350.jpg" alt="poster" class="ranobe__img">
+                            </div>
+                            <div class="ranobe__content">
+                                <h3 class="ranobe__title">Легенда о северном клинке</h3>
+                                <p class="ranobe__rating"><span>9.75</span> 
+                                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                    viewBox="0 0 330 330" xml:space="preserve">
+                               <g>
+                                   <path d="M165,0C74.019,0,0,74.019,0,165s74.019,165,165,165s165-74.019,165-165S255.981,0,165,0z M165,300
+                                       c-74.439,0-135-60.561-135-135S90.561,30,165,30s135,60.561,135,135S239.439,300,165,300z"/>
+                                   <path d="M247.157,128.196l-47.476-6.9l-21.23-43.019c-2.527-5.12-7.741-8.362-13.451-8.362s-10.924,3.242-13.451,8.362
+                                       l-21.23,43.019l-47.476,6.9c-5.65,0.821-10.345,4.779-12.108,10.209c-1.765,5.43-0.293,11.391,3.796,15.376l34.353,33.486
+                                       l-8.109,47.282c-0.965,5.628,1.349,11.315,5.968,14.671c4.618,3.355,10.741,3.799,15.797,1.142L165,228.039l42.462,22.323
+                                       c2.195,1.154,4.592,1.723,6.979,1.723c0.017,0,0.033,0,0.05,0c8.271-0.015,14.972-6.725,14.972-15c0-1.152-0.13-2.274-0.375-3.352
+                                       l-7.97-46.466l34.352-33.486c4.089-3.985,5.561-9.946,3.796-15.376C257.502,132.975,252.808,129.017,247.157,128.196z"/>
+                               </g>
+                               </svg></p>
+                                <p class="ranobe__year">2014</p>
+                                <p class="ranobe__author">Hae-Min</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="ranobe">
+                        <div class="ranobe__inner">
+                            <div class="ranobe__img-wrapper">
+                                <img src="https://cover.imglib.info/uploads/cover/legend-of-the-northern-blade-novel/cover/29cBQDYlIWWv_250x350.jpg" alt="poster" class="ranobe__img">
+                            </div>
+                            <div class="ranobe__content">
+                                <h3 class="ranobe__title">Легенда о северном клинке</h3>
+                                <p class="ranobe__rating"><span>9.75</span> 
+                                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                    viewBox="0 0 330 330" xml:space="preserve">
+                               <g>
+                                   <path d="M165,0C74.019,0,0,74.019,0,165s74.019,165,165,165s165-74.019,165-165S255.981,0,165,0z M165,300
+                                       c-74.439,0-135-60.561-135-135S90.561,30,165,30s135,60.561,135,135S239.439,300,165,300z"/>
+                                   <path d="M247.157,128.196l-47.476-6.9l-21.23-43.019c-2.527-5.12-7.741-8.362-13.451-8.362s-10.924,3.242-13.451,8.362
+                                       l-21.23,43.019l-47.476,6.9c-5.65,0.821-10.345,4.779-12.108,10.209c-1.765,5.43-0.293,11.391,3.796,15.376l34.353,33.486
+                                       l-8.109,47.282c-0.965,5.628,1.349,11.315,5.968,14.671c4.618,3.355,10.741,3.799,15.797,1.142L165,228.039l42.462,22.323
+                                       c2.195,1.154,4.592,1.723,6.979,1.723c0.017,0,0.033,0,0.05,0c8.271-0.015,14.972-6.725,14.972-15c0-1.152-0.13-2.274-0.375-3.352
+                                       l-7.97-46.466l34.352-33.486c4.089-3.985,5.561-9.946,3.796-15.376C257.502,132.975,252.808,129.017,247.157,128.196z"/>
+                               </g>
+                               </svg></p>
+                                <p class="ranobe__year">2014</p>
+                                <p class="ranobe__author">Hae-Min</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="ranobe">
+                        <div class="ranobe__inner">
+                            <div class="ranobe__img-wrapper">
+                                <img src="https://cover.imglib.info/uploads/cover/legend-of-the-northern-blade-novel/cover/29cBQDYlIWWv_250x350.jpg" alt="poster" class="ranobe__img">
+                            </div>
+                            <div class="ranobe__content">
+                                <h3 class="ranobe__title">Легенда о северном клинке</h3>
+                                <p class="ranobe__rating"><span>9.75</span> 
+                                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                    viewBox="0 0 330 330" xml:space="preserve">
+                               <g>
+                                   <path d="M165,0C74.019,0,0,74.019,0,165s74.019,165,165,165s165-74.019,165-165S255.981,0,165,0z M165,300
+                                       c-74.439,0-135-60.561-135-135S90.561,30,165,30s135,60.561,135,135S239.439,300,165,300z"/>
+                                   <path d="M247.157,128.196l-47.476-6.9l-21.23-43.019c-2.527-5.12-7.741-8.362-13.451-8.362s-10.924,3.242-13.451,8.362
+                                       l-21.23,43.019l-47.476,6.9c-5.65,0.821-10.345,4.779-12.108,10.209c-1.765,5.43-0.293,11.391,3.796,15.376l34.353,33.486
+                                       l-8.109,47.282c-0.965,5.628,1.349,11.315,5.968,14.671c4.618,3.355,10.741,3.799,15.797,1.142L165,228.039l42.462,22.323
+                                       c2.195,1.154,4.592,1.723,6.979,1.723c0.017,0,0.033,0,0.05,0c8.271-0.015,14.972-6.725,14.972-15c0-1.152-0.13-2.274-0.375-3.352
+                                       l-7.97-46.466l34.352-33.486c4.089-3.985,5.561-9.946,3.796-15.376C257.502,132.975,252.808,129.017,247.157,128.196z"/>
+                               </g>
+                               </svg></p>
+                                <p class="ranobe__year">2014</p>
+                                <p class="ranobe__author">Hae-Min</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="ranobe">
+                        <div class="ranobe__inner">
+                            <div class="ranobe__img-wrapper">
+                                <img src="https://cover.imglib.info/uploads/cover/legend-of-the-northern-blade-novel/cover/29cBQDYlIWWv_250x350.jpg" alt="poster" class="ranobe__img">
+                            </div>
+                            <div class="ranobe__content">
+                                <h3 class="ranobe__title">Легенда о северном клинке</h3>
+                                <p class="ranobe__rating"><span>9.75</span> 
+                                <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                                    viewBox="0 0 330 330" xml:space="preserve">
+                               <g>
+                                   <path d="M165,0C74.019,0,0,74.019,0,165s74.019,165,165,165s165-74.019,165-165S255.981,0,165,0z M165,300
+                                       c-74.439,0-135-60.561-135-135S90.561,30,165,30s135,60.561,135,135S239.439,300,165,300z"/>
+                                   <path d="M247.157,128.196l-47.476-6.9l-21.23-43.019c-2.527-5.12-7.741-8.362-13.451-8.362s-10.924,3.242-13.451,8.362
+                                       l-21.23,43.019l-47.476,6.9c-5.65,0.821-10.345,4.779-12.108,10.209c-1.765,5.43-0.293,11.391,3.796,15.376l34.353,33.486
+                                       l-8.109,47.282c-0.965,5.628,1.349,11.315,5.968,14.671c4.618,3.355,10.741,3.799,15.797,1.142L165,228.039l42.462,22.323
+                                       c2.195,1.154,4.592,1.723,6.979,1.723c0.017,0,0.033,0,0.05,0c8.271-0.015,14.972-6.725,14.972-15c0-1.152-0.13-2.274-0.375-3.352
+                                       l-7.97-46.466l34.352-33.486c4.089-3.985,5.561-9.946,3.796-15.376C257.502,132.975,252.808,129.017,247.157,128.196z"/>
+                               </g>
+                               </svg></p>
+                                <p class="ranobe__year">2014</p>
+                                <p class="ranobe__author">Hae-Min</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
