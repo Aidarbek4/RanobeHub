@@ -83,6 +83,9 @@ body {
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
+.header__inner .navbar__link:hover {
+  color: #0099cc;
+}
 
 .content__inner {
   margin: 30px 0;
@@ -224,6 +227,11 @@ body {
 .content .tags__link {
   color: #0099cc;
   font-weight: 200;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.content .tags__link:hover {
+  text-decoration: underline;
 }
 
 .search__form {
